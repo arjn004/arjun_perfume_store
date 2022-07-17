@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@300&family=Tiro+Telugu:ital@1&display=swap');
+header{
+    display : block;
+    background : black;
+    height : 72px;
+    color : white;
+    margin: 0px;
+    padding: 0px;
+    }
+
+header ul li a{
+    background-color: black;
+    text-align: right;
+    text-decoration: none;
+    color : white;
+    display : inline;
+    padding : 2%;
+    float: right;
+}
+header ul li {
+
+    font-size: medium;
+    display : inline;
+    font-family: 'Inter', sans-serif;
+}
+header ul li input [type=text]{
+    float : right;
+    padding : 6px;
+    border : None;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+footer{
+    background: Black;
+    height : 150px;
+    color : white;
+    }
+footer ul li a{
+    color : white;
+    text-decoration: None;
+    padding : 0px;
+}
+footer ul{
+    list-style: none;
+}
+footer p{
+    color : white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.wrapper{
+    height: 1%;
+    display : inline-block;
+    border: 1px solid;
+}
+.set{
+    height: 20px;
+    display: inline-block;
+    border: 1px solid;
+    padding : 2px;
+    margin : 2px;
+}
+.black{
+    background-color: lightgray;
+}
+.brands{
+    margin-left: 150px;
+}
+.one{
+    background-color: whitesmoke;
+    display:inline-block;
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+    height: 350px;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+}
+.one img{
+    height: 150px;
+    width: 150px;
+}
+.onetxt{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Tiro Telugu', serif;
+    text-shadow: 1px;
+}
+.onetxt a{
+    text-decoration: none;
+    color: Black;
+}
+.onepic{
+    border: 1px solid;
+    padding: 10px 10px 10px 40px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 78%;
+    background: #f1f1f1;
+    margin: 0px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    margin: 0px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

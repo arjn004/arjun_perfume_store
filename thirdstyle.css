@@ -1,0 +1,108 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@300&family=Tiro+Telugu:ital@1&display=swap');
+    header{
+        display : block;
+        background : black;
+        height : 72px;
+        color : white;
+        margin: 0px;
+        padding: 0px;
+        }
+    
+    header ul li a{
+        background-color: black;
+        text-align: right;
+        text-decoration: none;
+        color : white;
+        display : inline;
+        padding : 2%;
+        float: right;
+    }
+    header ul li {
+
+        font-size: medium;
+        display : inline;
+        font-family: 'Inter', sans-serif;
+    }
+    header ul li input [type=text]{
+        float : right;
+        padding : 6px;
+        border : None;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+    }
+    footer{
+        background: Black;
+        height : 150px;
+        color : white;
+        }
+    footer ul li a{
+        color : white;
+        text-decoration: None;
+        padding : 0px;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer p{
+        color : white;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 78%;
+        background: #f1f1f1;
+        margin: 0px;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        float: right;
+        width: 20%;
+        padding: 10px;
+        margin: 0px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+      }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      /* Clear floats */
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    .oneimg{
+        display: inline-block;
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+        margin-left: 200px;
+    }
+    .oneimg img{
+        height: 400px;
+        width: 400px;
+    }
+    .onetxt{
+        text-align: center;
+        display: inline-block;
+        height: 150px;
+        width: 480px;
+    }
+    .onetxt ul{
+        list-style: None;
+        text-align: left;
+    }
+    
